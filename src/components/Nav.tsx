@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { BETA_FORM_URL } from "@/lib/links";
 
 export default function Nav() {
   return (
@@ -16,7 +17,7 @@ export default function Nav() {
               Demo
             </Link>
             <a
-              href="mailto:hello@renderdrop.app?subject=RenderDrop%20Beta%20Request"
+              href={BETA_FORM_URL}
               className="px-4 py-2 bg-[#1a1a1a] border border-[#2a2a2a] rounded-md text-white hover:bg-[#2a2a2a] transition-colors"
             >
               Request Beta

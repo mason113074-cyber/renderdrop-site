@@ -1,3 +1,5 @@
+import { BETA_FORM_URL } from "@/lib/links";
+
 export default function Pricing() {
   return (
     <main>
@@ -38,7 +40,7 @@ export default function Pricing() {
                 </li>
               </ul>
               <a
-                href="mailto:hello@renderdrop.app?subject=RenderDrop%20Beta%20Request"
+                href={BETA_FORM_URL}
                 className="block w-full px-6 py-3 bg-gradient-to-r from-[#6366f1] to-[#8b5cf6] text-white rounded-lg font-semibold text-center hover:shadow-lg hover:shadow-purple-500/30 transition-all"
               >
                 Request beta
@@ -79,7 +81,7 @@ export default function Pricing() {
                 </li>
               </ul>
               <a
-                href="mailto:hello@renderdrop.app?subject=RenderDrop%20Beta%20Request"
+                href={BETA_FORM_URL}
                 className="block w-full px-6 py-3 bg-gradient-to-r from-[#6366f1] to-[#8b5cf6] text-white rounded-lg font-semibold text-center hover:shadow-lg hover:shadow-purple-500/30 transition-all"
               >
                 Request beta
@@ -113,7 +115,7 @@ export default function Pricing() {
                 </li>
               </ul>
               <a
-                href="mailto:hello@renderdrop.app?subject=RenderDrop%20Beta%20Request"
+                href={BETA_FORM_URL}
                 className="block w-full px-6 py-3 bg-gradient-to-r from-[#6366f1] to-[#8b5cf6] text-white rounded-lg font-semibold text-center hover:shadow-lg hover:shadow-purple-500/30 transition-all"
               >
                 Request beta

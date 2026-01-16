@@ -1,3 +1,5 @@
+import { BETA_FORM_URL, DEMO_MAILTO } from "@/lib/links";
+
 export default function Home() {
   return (
     <main>
@@ -12,13 +14,13 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="mailto:hello@renderdrop.app?subject=RenderDrop%20Beta%20Request"
+              href={BETA_FORM_URL}
               className="px-8 py-3 bg-gradient-to-r from-[#6366f1] to-[#8b5cf6] text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-purple-500/30 transition-all transform hover:-translate-y-1"
             >
               Request beta
             </a>
             <a
-              href="mailto:hello@renderdrop.app?subject=RenderDrop%20Demo%20Request"
+              href={DEMO_MAILTO}
               className="px-8 py-3 border-2 border-white text-white rounded-lg font-semibold hover:bg-white hover:text-black transition-colors"
             >
               Book a 10-min demo
@@ -71,13 +73,13 @@ export default function Home() {
           <p className="text-xl text-gray-400 mb-8">Join the beta and get early access to RenderDrop.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="mailto:hello@renderdrop.app?subject=RenderDrop%20Beta%20Request"
+              href={BETA_FORM_URL}
               className="px-8 py-3 bg-gradient-to-r from-[#6366f1] to-[#8b5cf6] text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-purple-500/30 transition-all transform hover:-translate-y-1"
             >
               Request beta
             </a>
             <a
-              href="mailto:hello@renderdrop.app?subject=RenderDrop%20Demo%20Request"
+              href={DEMO_MAILTO}
               className="px-8 py-3 border-2 border-white text-white rounded-lg font-semibold hover:bg-white hover:text-black transition-colors"
             >
               Book a 10-min demo

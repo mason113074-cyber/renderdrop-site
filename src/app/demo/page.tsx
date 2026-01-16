@@ -1,3 +1,5 @@
+import { BETA_FORM_URL, DEMO_MAILTO } from "@/lib/links";
+
 export default function Demo() {
   return (
     <main>
@@ -61,13 +63,13 @@ export default function Demo() {
               Click below to book your demo. We&apos;ll send you a calendar link to choose a time that works for you.
             </p>
             <a
-              href="mailto:hello@renderdrop.app?subject=RenderDrop%20Demo%20Request"
+              href={DEMO_MAILTO}
               className="inline-block px-8 py-3 bg-gradient-to-r from-[#6366f1] to-[#8b5cf6] text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-purple-500/30 transition-all transform hover:-translate-y-1"
             >
               Book a 10-min demo
             </a>
             <p className="text-gray-400 mt-6 text-sm">
-              Or <a href="mailto:hello@renderdrop.app?subject=RenderDrop%20Beta%20Request" className="text-[#6366f1] hover:underline">request beta access</a> to try it yourself
+              Or <a href={BETA_FORM_URL} className="text-[#6366f1] hover:underline">request beta access</a> to try it yourself
             </p>
           </div>
         </div>
