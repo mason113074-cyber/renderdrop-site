@@ -1,48 +1,51 @@
 # RenderDrop Marketing Site
 
-A simple, modern marketing site for RenderDrop - a persistent, branded upload portal for video teams.
+A modern Next.js marketing site for RenderDrop - a persistent, branded upload portal for video teams.
+
+## Tech Stack
+
+- **Next.js 14** (App Router)
+- **TypeScript**
+- **Tailwind CSS**
+- **Vercel** (deployment ready)
 
 ## Features
 
 - Clean, dark "video-pro" aesthetic
-- Responsive design
-- Static HTML/CSS (no build step required)
-- Vercel-ready with clean URL rewrites
+- Fully responsive design
+- Static site generation (SSG)
+- SEO optimized with meta tags
 - Mailto-based CTAs (no payment integration)
 
 ## Pages
 
 - `/` - Homepage with hero section and benefits
 - `/pricing` - Pricing plans display
-- `/demo` - Demo booking page
+- `/demo` - Demo booking page with workflow
 - `/privacy` - Privacy policy
 - `/terms` - Terms of service
 
-## Deployment
-
-This site is configured for easy deployment on Vercel:
-
-1. Connect your GitHub repository to Vercel
-2. Vercel will automatically detect the static site
-3. The `vercel.json` file handles clean URL rewrites
-
-## Local Development
-
-Simply open `index.html` in a browser or use a local server:
+## Development
 
 ```bash
-# Using Python
-python -m http.server 8000
+# Install dependencies
+npm install
 
-# Using Node.js
-npx serve
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
 ```
 
-## Tech Stack
+## Deployment
 
-- Pure HTML5
-- CSS3 (no frameworks)
-- Vercel for hosting
+**Vercel**: Import repo on Vercel → Deploy.
+
+The site is configured for automatic deployment on Vercel. Simply connect your GitHub repository and Vercel will handle the rest.
 
 ## Contact
 
