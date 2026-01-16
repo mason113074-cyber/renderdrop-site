@@ -43,7 +43,7 @@ npm start
 
 ## Deployment
 
-**Vercel**: Import repo on Vercel → Deploy.
+**Vercel**: Import repo on Vercel → Deploy..
 
 The site is configured for automatic deployment on Vercel. Simply connect your GitHub repository and Vercel will handle the rest.
 
