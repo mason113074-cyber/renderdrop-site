@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://renderdrop.app/</loc>
+    <loc>https://renderdrop-site.vercel.app/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://renderdrop.app/pricing</loc>
+    <loc>https://renderdrop-site.vercel.app/pricing</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://renderdrop.app/get-started</loc>
+    <loc>https://renderdrop-site.vercel.app/get-started</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://renderdrop.app/privacy</loc>
+    <loc>https://renderdrop-site.vercel.app/privacy</loc>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://renderdrop.app/terms</loc>
+    <loc>https://renderdrop-site.vercel.app/terms</loc>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
