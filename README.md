@@ -15,13 +15,13 @@ A modern Next.js marketing site for RenderDrop - a persistent, branded upload po
 - Fully responsive design
 - Static site generation (SSG)
 - SEO optimized with meta tags
-- Mailto-based CTAs (no payment integration)
+- Direct app integration via /get-started redirect
 
 ## Pages
 
 - `/` - Homepage with hero section and benefits
 - `/pricing` - Pricing plans display
-- `/demo` - Demo booking page with workflow
+- `/get-started` - Redirects to the RenderDrop app
 - `/privacy` - Privacy policy
 - `/terms` - Terms of service
 

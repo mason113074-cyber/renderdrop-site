@@ -10,8 +10,8 @@ export default function Footer() {
             <Link href="/pricing" className="text-gray-400 hover:text-white transition-colors">
               Pricing
             </Link>
-            <Link href="/demo" className="text-gray-400 hover:text-white transition-colors">
-              Demo
+            <Link href="/get-started" className="text-gray-400 hover:text-white transition-colors">
+              Get Started
             </Link>
             <Link href="/privacy" className="text-gray-400 hover:text-white transition-colors">
               Privacy

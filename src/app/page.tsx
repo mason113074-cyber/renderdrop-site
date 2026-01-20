@@ -1,4 +1,4 @@
-import { BETA_FORM_URL, DEMO_MAILTO } from "@/lib/links";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -13,18 +13,18 @@ export default function Home() {
             A persistent, branded upload portal for video teams—built for large files and busy clients.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href={BETA_FORM_URL}
+            <Link
+              href="/get-started"
               className="px-8 py-3 bg-gradient-to-r from-[#6366f1] to-[#8b5cf6] text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-purple-500/30 transition-all transform hover:-translate-y-1"
             >
-              Request beta
-            </a>
-            <a
-              href={DEMO_MAILTO}
+              Get Started
+            </Link>
+            <Link
+              href="/pricing"
               className="px-8 py-3 border-2 border-white text-white rounded-lg font-semibold hover:bg-white hover:text-black transition-colors"
             >
-              Book a 10-min demo
-            </a>
+              See Pricing
+            </Link>
           </div>
         </div>
       </section>
@@ -70,20 +70,20 @@ export default function Home() {
       <section className="py-24 px-4 sm:px-6 lg:px-8 text-center bg-[#0a0a0a]">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-4xl font-bold mb-4">Ready to stop chasing clients?</h2>
-          <p className="text-xl text-gray-400 mb-8">Join the beta and get early access to RenderDrop.</p>
+          <p className="text-xl text-gray-400 mb-8">Get started with RenderDrop today.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href={BETA_FORM_URL}
+            <Link
+              href="/get-started"
               className="px-8 py-3 bg-gradient-to-r from-[#6366f1] to-[#8b5cf6] text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-purple-500/30 transition-all transform hover:-translate-y-1"
             >
-              Request beta
-            </a>
-            <a
-              href={DEMO_MAILTO}
+              Get Started
+            </Link>
+            <Link
+              href="/pricing"
               className="px-8 py-3 border-2 border-white text-white rounded-lg font-semibold hover:bg-white hover:text-black transition-colors"
             >
-              Book a 10-min demo
-            </a>
+              See Pricing
+            </Link>
           </div>
         </div>
       </section>

@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { BETA_FORM_URL } from "@/lib/links";
 
 export default function Nav() {
   return (
@@ -13,15 +12,12 @@ export default function Nav() {
             <Link href="/pricing" className="text-gray-400 hover:text-white transition-colors">
               Pricing
             </Link>
-            <Link href="/demo" className="text-gray-400 hover:text-white transition-colors">
-              Demo
-            </Link>
-            <a
-              href={BETA_FORM_URL}
-              className="px-4 py-2 bg-[#1a1a1a] border border-[#2a2a2a] rounded-md text-white hover:bg-[#2a2a2a] transition-colors"
+            <Link
+              href="/get-started"
+              className="px-4 py-2 bg-gradient-to-r from-[#6366f1] to-[#8b5cf6] text-white rounded-md hover:shadow-lg hover:shadow-purple-500/30 transition-all"
             >
-              Request Beta
-            </a>
+              Get Started
+            </Link>
           </div>
         </div>
       </div>
