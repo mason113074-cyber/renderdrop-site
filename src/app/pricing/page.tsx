@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Pricing() {
   return (
     <main>
@@ -92,12 +94,12 @@ export default function Pricing() {
             </div>
 
             <div className="text-center">
-              <a
-                href="/demo"
+              <Link
+                href="/get-started"
                 className="inline-block px-8 py-3 bg-gradient-to-r from-[#6366f1] to-[#8b5cf6] text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-purple-500/30 transition-all transform hover:-translate-y-1"
               >
                 Get Started
-              </a>
+              </Link>
             </div>
           </div>
 

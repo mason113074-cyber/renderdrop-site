@@ -14,10 +14,10 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/demo"
+              href="/get-started"
               className="px-8 py-3 bg-gradient-to-r from-[#6366f1] to-[#8b5cf6] text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-purple-500/30 transition-all transform hover:-translate-y-1"
             >
-              Open Demo
+              Get Started
             </Link>
             <Link
               href="/pricing"
@@ -73,10 +73,10 @@ export default function Home() {
           <p className="text-xl text-gray-400 mb-8">Get started with RenderDrop today.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/demo"
+              href="/get-started"
               className="px-8 py-3 bg-gradient-to-r from-[#6366f1] to-[#8b5cf6] text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-purple-500/30 transition-all transform hover:-translate-y-1"
             >
-              Open Demo
+              Get Started
             </Link>
             <Link
               href="/pricing"
